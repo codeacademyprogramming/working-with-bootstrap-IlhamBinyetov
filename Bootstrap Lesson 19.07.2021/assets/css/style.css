@@ -1,0 +1,77 @@
+* , *::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.image{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url(../images/bg-masthead.jpg);
+    height: 100vh;
+}
+
+.first-part div i{
+font-size: 60px;
+color: #0d6efd
+}
+.text{
+    width: 64%;
+    margin: auto;
+}
+.search-input {
+    outline: none;
+}
+.submit-button{
+    margin-left: 10px;
+}
+.second-part img{
+width: 100%;
+}
+.image-content{
+    display: flex; 
+    align-items: center;
+}
+.image-texts{
+    width: 70%;
+    margin: auto; 
+}
+.first-part{
+    padding: 8%
+}
+.third-part img{
+    width: 40%;
+}
+.third-part p{
+    width: 70%;
+    margin: auto;
+    font-size: 20px;
+}
+.final-image img{
+    width: 100%; 
+}
+
+.fourth-part{
+    position: relative;
+    background-color: #343a40;
+    background: url(../images/bg-masthead.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+footer ul li{
+    list-style: none;
+}
+
+.footer-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.social i{
+    margin-left: 30px;
+}
+.last-part{
+    margin-top: -22px;
+    margin-left:75px ;
+}
